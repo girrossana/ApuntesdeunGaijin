@@ -1,24 +1,36 @@
-
+/* titulo e imagen de primera */
+.imagen_entrada{
+    border: 1px black solid;
+    height: 577px;
+    background-color: #24a19c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};
 h1{
     color: red;
     text-align: center;
-    background-image: url(https://w7.pngwing.com/pngs/923/53/png-transparent-pink-flowers-paper-pink-flowers-rose-hand-painted-floral-pink-flowers-decorative-background-pink-petaled-flowers-illustration-watercolor-painting-flower-arranging-textile-thumbnail.png)
-};
-.
-.carousel slide{
-    display: flex;
-    justify-items: center;
-    width: 300px;
-    height: 700px;
-}
-.ima{
-    
-    height: 300px;
-}
+    };
+/* carrusel con imagenes */
 
-/* .mycarousel{
-    width: 200px;
-    height: 300px;
-} */
+.carousel-inner{
+    display: flex;
+    justify-content: center;
     
-   
+};
+
+.carousel-item.active{
+    padding-left: 240px;
+    background-color: #6ebfb5;
+};
+/* cards */
+/* imagenes de la card */
+.card-img{
+    width: 100px;
+    height: 100px;
+};
+
+/* cards como tal */
+.card{
+    
+}
