@@ -109,7 +109,7 @@
 
 /* Other styles */
 body {
-	background-color: RED;
+	background-color: none;
 	color: #BLACK;
 	
 	font-family: 'Roboto', sans-serif;
@@ -131,16 +131,16 @@ body {
 
 
 body{
-    background-color:#6ebfb5;
+    
 	
 }
 
 /* titulo e imagen de primera */
 
 .imagen_entrada{
-    border: 1px black solid;
+    border: none;
     height: 577px;
-    background-color: #24a19c;
+    background-color: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,23 +161,25 @@ body{
 
 .carousel_redes{
  border: 1px black solid;
- background-color: #6ebfb5;
+ background-color: none;
  
 }
 
 .carousel{
-border: 1px red solid;
+border: none;
 width: 50%;
 height: 40%;
-margin-left: 320px;
+margin-left: 100px;
 
 
 }
+
 
 
 .imag{
     width: 100%;
 height: 50%;
+border-radius: 50%;
 }
 
 
@@ -198,8 +200,8 @@ height: 50%;
  justify-content: space-between;
  text-align: center;
  text-transform: capitalize;
- color: red;
- background-color: #ffc7c7;
+ color: none;
+ background-color: none;
  
 }
 
@@ -212,3 +214,6 @@ height: 50%;
 height: 40%;
 };
 
+.cards_father{
+	margin-top: 400px
+}
