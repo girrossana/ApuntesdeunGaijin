@@ -207,7 +207,7 @@ border-radius: 50%;
 
 
 
-/* tamaño de als cards */
+/* tamaño de las cards */
 .mycard{
  border: none;
  width: 30%;
@@ -216,4 +216,8 @@ height: 40%;
 
 .cards_father{
 	margin-top: 400px
+};
+
+h1{
+	text-align: center;
 }
